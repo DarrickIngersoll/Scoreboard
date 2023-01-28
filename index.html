@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 class="board-title-home">HOME</h3>
+                <h1 class="home-score" id="home-score">0</h1>
+                <span class="add-points-btn-home">
+                    <button class="point-button" id="one-point-home" onClick="onePointHome()">+1</button>
+                    <button class="point-button" id="two-point-home" onClick="twoPointHome()">+2</button>
+                    <button class="point-button" id="three-point-home" onClick="threePointHome()">+3</button>
+                </span>
+            </div>
+            
+            <div class="home">
+                <h3 class="baord-title-home">GUEST</h3>
+                <h1 class="guest-score" id="guest-score">0</h1>
+                <span class="add-points-btn-home">
+                    <button class="point-button" id="one-point-gues" onClick="onePointGuest()">+1</button>
+                    <button class="point-button" id="two-point-guest" onClick="twoPointGuest()">+2</button>
+                    <button class="point-button" id="three-point-guest" onClick="threePointGuest()">+3</button>
+                </span>
+            </div>
+        </div>
+        <span class="action-btn" > <button class="new-game-btn" onclick="newGame()">NEW GAME</button></span>
+        <script src="index.js"></script>
+    </body>
+</html>
